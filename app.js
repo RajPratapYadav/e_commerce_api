@@ -32,4 +32,4 @@ const connectToDb = async () => {
       console.error("Could not connect to MongoDB");
    }
 };
-app.listen(config.port, connectToDb(), console.log(`Starzopp server runing on ${config.port}`));
+app.listen(port, connectToDb(), console.log(`Starzopp server runing on ${port}`));
